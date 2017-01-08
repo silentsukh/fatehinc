@@ -1,2 +1,2 @@
 # fatehinc
-Fateh Inc. portfolio website
+Fateh Inc. website

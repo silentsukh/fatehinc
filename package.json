@@ -1,0 +1,59 @@
+{
+  "name": "fatehinc",
+  "version": "1.0.0",
+  "description": "Fateh Inc. Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --inline --hot",
+    "dev": "webpack -d",
+    "test": "karma start",
+    "build": "npm test && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silentsukh/fatehinc.git"
+  },
+  "author": "SSD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silentsukh/fatehinc/issues"
+  },
+  "homepage": "https://github.com/silentsukh/fatehinc#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "bootstrap": "^4.0.0-alpha.6",
+    "chai": "^3.5.0",
+    "css-loader": "^0.25.0",
+    "es6-promise": "^4.0.5",
+    "eslint": "^3.10.2",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-react": "^6.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-edge-launcher": "^0.1.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-mocha": "^1.2.0",
+    "karma-mocha-reporter": "^2.2.1",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.8.0",
+    "mocha": "^3.1.2",
+    "node-sass": "^3.11.2",
+    "path": "^0.12.7",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "redux": "^3.6.0",
+    "sass-loader": "^4.0.2",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
